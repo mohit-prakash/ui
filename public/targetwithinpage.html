@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+        a{
+            text-decoration: none;
+        }
+        li{
+            border: 2px solid gold;
+            width: 100px;
+            padding: 5px;
+            margin-right: 20px;
+            text-align: center;
+            background-color: yellowgreen;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+        }
+        .topic{
+            border: 2px solid green;
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+        .topic:target{
+            background-color: beige;
+            color: black;
+        }
+        .topic:hover{
+            background-color: darkkhaki;
+            color: aqua;
+        }
+        #box{
+            margin-top: 50px;
+            margin-left: 150px;
+            width: 1100px;
+        }
+    </style>
+  </head>
+  <body>
+    <div>
+      <ul>
+        <li><a href="#html">HTML</a></li>
+        <li><a href="#css">CSS</a></li>
+        <li><a href="#js">JS</a></li>
+      </ul>
+    </div>
+    <div id="box">
+      <div class="topic" id="html">
+        <h3>HTML</h3>
+        <p>
+          The HyperText Markup Language or HTML is the standard markup language
+          for documents designed to be displayed in a web browser. It can be
+          assisted by technologies such as Cascading Style Sheets (CSS) and
+          scripting languages such as JavaScript.
+        </p>
+      </div>
+      <div class="topic" id="css">
+        <h3>CSS</h3>
+        <p>
+          Cascading Style Sheets (CSS) is a style sheet language used for
+          describing the presentation of a document written in a markup language
+          such as HTML or XML (including XML dialects such as SVG, MathML or
+          XHTML).[1] CSS is a cornerstone technology of the World Wide Web,
+          alongside HTML and JavaScript.
+        </p>
+      </div>
+      <div class="topic" id="js">
+        <h3>JS</h3>
+        <p>
+          JavaScript, often abbreviated as JS, is a programming language that is
+          one of the core technologies of the World Wide Web, alongside HTML and
+          CSS. As of 2022, 98% of websites use JavaScript on the client side for
+          webpage behavior, often incorporating third-party libraries. All major
+          web browsers have a dedicated JavaScript engine to execute the code on
+          users' devices.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
